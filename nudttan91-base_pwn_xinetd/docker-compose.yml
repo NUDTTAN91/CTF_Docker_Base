@@ -1,0 +1,8 @@
+version: "2"
+services:
+  
+  base_pwn:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nudttan91/base_pwn_xinetd
