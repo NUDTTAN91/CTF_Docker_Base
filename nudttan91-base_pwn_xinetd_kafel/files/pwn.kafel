@@ -1,0 +1,5 @@
+POLICY pwn {
+    DENY {}
+}
+
+USE pwn DEFAULT ALLOW
